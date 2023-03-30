@@ -20,7 +20,7 @@ function Form(props) {
                         value={props.cardData.name}
                         placeholder="e.g. Jane Appleseed"
                         onChange={props.handleChange}
-                        className={`input 
+                        className={`input--all 
                                     input--large 
                                     ${props.errors.name
                                         || !props.regexResult.name 
@@ -53,7 +53,7 @@ function Form(props) {
                         value={props.cardData.number}
                         placeholder="e.g. 1234 5678 9123 0000"
                         onChange={props.handleChange}
-                        className={`input 
+                        className={`input--all 
                                     input--large 
                                     ${props.errors.number 
                                         || !props.regexResult.number
@@ -87,7 +87,7 @@ function Form(props) {
                             value={props.cardData.month}
                             placeholder="MM"
                             onChange={props.handleChange}
-                            className={`input 
+                            className={`input--all 
                                         input--xs 
                                         ${props.errors.month 
                                             || !props.regexResult.month 
@@ -105,7 +105,7 @@ function Form(props) {
                             value={props.cardData.year}
                             placeholder="YY"
                             onChange={props.handleChange}
-                            className={`input 
+                            className={`input--all 
                                         input--xs 
                                         ${props.errors.year 
                                             || !props.regexResult.year 
@@ -140,7 +140,7 @@ function Form(props) {
                             value={props.cardData.cvc}
                             placeholder="e.g. 123"
                             onChange={props.handleChange}
-                            className={`input 
+                            className={`input--all 
                                         input--medium 
                                         ${props.errors.cvc 
                                             || !props.regexResult.cvc 

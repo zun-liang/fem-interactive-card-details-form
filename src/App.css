@@ -135,7 +135,7 @@ body {
   display: none; /* Exp Year Label is Hidden */
 }
 
-.input {
+.input--all {
   border: 1px solid var(--light-grayish-violet);
   border-radius: 8px;
   height: 45px;
@@ -146,7 +146,7 @@ body {
   letter-spacing: .5px;
 }
 
-.input:hover {
+.input--all:hover {
   cursor: pointer;
 }
 
@@ -161,7 +161,7 @@ body {
   margin-right: 10px;
 }
 
-.input::placeholder {
+.input--all::placeholder {
   font-size: 17px;
   color: var(--light-grayish-violet);
 }

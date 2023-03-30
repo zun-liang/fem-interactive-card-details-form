@@ -35,32 +35,34 @@ Users should be able to:
             <img 
                 src="./screenshots/screenshot_mobile.png"
                 alt="mobile preview"
-                width="100%" />
-        </td>
-        <td>
+                width="150px" />
             <img 
                 src="./screenshots/screenshot_mobile_complete.png"
                 alt="mobile complete preview"
-                width="100%" />
+                width="150px" />
         </td>
+    </tr>
+    <tr>
         <td>
             <img 
                 src="./screenshots/screenshot_desktop.png"
                 alt="desktop preview"
-                width="100%" />
+                width="300px" />
         </td>
+      </tr>
+      <tr>
         <td>
             <img 
                 src="./screenshots/screenshot_desktop_complete.png"
                 alt="desktop complete preview"
-                width="100%" />
+                width="300px" />
         </td>
     </tr>
 </table>
 
 ### Links
 
-- Solution URL: [here](https://www.frontendmentor.io/solutions/)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/interactive-card-details-form-using-html5-css3-and-reactjs-Y4i7ntwLIR)
 - Live Site URL: [here](https://zun-liang.github.io/interactive-card-details-form-main/)
 
 ## My process
