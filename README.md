@@ -33,25 +33,25 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src=".screenshots/screenshot_mobile.png"
+                src="./screenshots/screenshot_mobile.png"
                 alt="mobile preview"
                 width="100%" />
         </td>
         <td>
             <img 
-                src=".screenshots/screenshot_mobile_completed.png"
+                src="./screenshots/screenshot_mobile_complete.png"
                 alt="mobile complete preview"
                 width="100%" />
         </td>
         <td>
             <img 
-                src=".screenshots/screenshot_desktop.png"
+                src="./screenshots/screenshot_desktop.png"
                 alt="desktop preview"
                 width="100%" />
         </td>
         <td>
             <img 
-                src=".screenshots/screenshot_desktop_completed.png"
+                src="./screenshots/screenshot_desktop_complete.png"
                 alt="desktop complete preview"
                 width="100%" />
         </td>
