@@ -34,22 +34,26 @@ Users should be able to:
         <td>
             <img 
                 src=".screenshots/screenshot_mobile.png"
-                alt="mobile preview" />
+                alt="mobile preview"
+                width="100%" />
         </td>
         <td>
             <img 
                 src=".screenshots/screenshot_mobile_completed.png"
-                alt="mobile complete preview" />
+                alt="mobile complete preview"
+                width="100%" />
         </td>
         <td>
             <img 
                 src=".screenshots/screenshot_desktop.png"
-                alt="desktop preview" />
+                alt="desktop preview"
+                width="100%" />
         </td>
         <td>
             <img 
                 src=".screenshots/screenshot_desktop_completed.png"
-                alt="desktop complete preview" />
+                alt="desktop complete preview"
+                width="100%" />
         </td>
     </tr>
 </table>
