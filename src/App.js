@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import './App.css';
-import CardBack from "./components/CardBack";
-import CardFront from "./components/CardFront";
-import Form from "./components/Form";
-import Completed from "./components/Completed";
+import React, { useState } from "react"
+import CardBack from "./components/CardBack"
+import CardFront from "./components/CardFront"
+import Form from "./components/Form"
+import Completed from "./components/Completed"
+import './App.css'
 
-function App() {
-
+const App = () => {
   const [cardData, setCardData] = useState({
     name: "",
     number: "",
@@ -15,8 +14,8 @@ function App() {
     cvc: ""
   })
   
-  function handleChange(event) {
-    const {name, value} = event.target;
+  const handleChange = e => {
+    const {name, value} = e.target
     setCardData(prev => {
       return {
         ...prev,
@@ -25,11 +24,9 @@ function App() {
     })
   }
 
-  const [toggle, setToggle] = useState("no");
+  const [toggle, setToggle] = useState("no")
 
-  function handleToggle() {
-    setToggle(prev => prev === "no" ? "yes" : "no");
-  }
+  const handleToggle = () => setToggle(prev => prev === "no" ? "yes" : "no")
 
   const [errors, setErrors] = useState({
     name: false,
@@ -37,7 +34,7 @@ function App() {
     month: false,
     year: false,
     cvc: false
-  });
+  })
 
   const regex = {
     name: /^((?:[A-Za-z]+ ?){1,3})$/,
@@ -55,8 +52,8 @@ function App() {
     cvc: true
   });
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  const handleSubmit = e => {
+    e.preventDefault()
     for (let property in cardData) {
       if (cardData[property].trim().length === 0) {
         setErrors(prev => {
@@ -78,13 +75,13 @@ function App() {
             && regex.month.test(cardData.month) 
             && regex.year.test(cardData.year)
             && regex.cvc.test(cardData.cvc)) {
-        handleToggle();
+        handleToggle()
       }
     }
     }
   
-    function reset() {
-      handleToggle();
+    const reset = () => {
+      handleToggle()
       setCardData({
         name: "",
         number: "",
@@ -108,7 +105,6 @@ function App() {
       })
     }
 
-
   return (
     <div className="App">
       <CardBack cardData={cardData} />
@@ -125,7 +121,7 @@ function App() {
         handleToggle={handleToggle}
         reset={reset}/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

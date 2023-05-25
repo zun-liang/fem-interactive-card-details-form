@@ -1,15 +1,14 @@
-import React from "react";
+import React from "react"
 
-function Form(props) {
-    return (
-        <>
+const Form = props => 
+    <>
         {props.toggle === "no" &&
             <form className="form" 
-                  onSubmit={props.handleSubmit}>
+                onSubmit={props.handleSubmit}>
                 
                 <div className="form--container">
                     <label htmlFor="cardName" 
-                           className="form--label">
+                        className="form--label">
                         Cardholder Name
                     </label>
 
@@ -42,7 +41,7 @@ function Form(props) {
                 
                 <div className="form--container">
                     <label htmlFor="cardNumber" 
-                           className="form--label">
+                        className="form--label">
                         Card Number
                     </label>
 
@@ -76,7 +75,7 @@ function Form(props) {
                 <div className="form--exp-cvc">
                     <div className="form--container">
                         <label htmlFor="month" 
-                               className="form--label">
+                            className="form--label">
                             Exp. Date (MM/YY)
                         </label>
 
@@ -114,16 +113,16 @@ function Form(props) {
 
                         <p className={props.errors.month 
                                         || props.errors.year 
-                                           ? "alertShown" 
-                                           : "alertHidden"}>
+                                        ? "alertShown" 
+                                        : "alertHidden"}>
                             Can't be blank
                         </p>
 
                         <p className={!props.regexResult.month 
-                                         || !props.regexResult.year 
+                                        || !props.regexResult.year 
                                             ? "alertShown" 
                                             : "alertHidden"}>
-                             Wrong format, 2-digit numbers only
+                            Wrong format, 2-digit numbers only
                         </p>
                     </div>
 
@@ -165,8 +164,6 @@ function Form(props) {
                     Confirm
                 </button>
             </form>}
-        </>
-    )
-}
+    </>
 
-export default Form;
+export default Form
