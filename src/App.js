@@ -118,7 +118,6 @@ const App = () => {
         regexResult={regexResult}/>
       <Completed 
         toggle={toggle}
-        handleToggle={handleToggle}
         reset={reset}/>
     </div>
   )
