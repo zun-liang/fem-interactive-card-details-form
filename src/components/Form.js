@@ -74,13 +74,13 @@ const Form = props =>
 
                 <div className="form--exp-cvc">
                     <div className="form--container">
-                        <label htmlFor="month" 
+                        <label htmlFor="cardMonth" 
                             className="form--label">
                             Exp. Date (MM/YY)
                         </label>
 
                         <input 
-                            input="text"
+                            type="text"
                             id="cardMonth"
                             name="month"
                             value={props.cardData.month}
