@@ -46,7 +46,7 @@ const Form = props =>
                     </label>
 
                     <input 
-                        type="text"
+                        type="number"
                         id="cardNumber"
                         name="number"
                         value={props.cardData.number}
@@ -80,7 +80,7 @@ const Form = props =>
                         </label>
 
                         <input 
-                            type="text"
+                            type="number"
                             id="cardMonth"
                             name="month"
                             value={props.cardData.month}
@@ -98,7 +98,7 @@ const Form = props =>
                         </label>
 
                         <input 
-                            type="text"
+                            type="number"
                             id="cardYear"
                             name="year"
                             value={props.cardData.year}
@@ -133,7 +133,7 @@ const Form = props =>
                         </label>
 
                         <input 
-                            type="text"
+                            type="number"
                             id="cardCVC"
                             name="cvc"
                             value={props.cardData.cvc}
