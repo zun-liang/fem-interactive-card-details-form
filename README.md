@@ -62,7 +62,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/interactive-card-details-form-using-html5-css3-and-reactjs-Y4i7ntwLIR)
-- Live Site URL: [here](https://zun-liang.github.io/interactive-card-details-form-main/)
+- Live Site URL: [here](https://zun-liang.github.io/fem-interactive-card-details-form/)
 
 ## My process
 
